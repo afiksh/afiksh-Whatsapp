@@ -1,0 +1,40 @@
+.user-profile {
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+    display: flex;
+    padding: 10px;
+}
+
+.user-profile:hover {
+    background-color: lightgray;
+}
+
+.user-image {
+    width: 45px;
+}
+
+.user-image>img {
+    border-radius: var(--border-radius-100p);
+}
+
+.user-info {
+    flex: 1;
+    margin-left: 10px;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.user-name {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.user-lastmessage {
+    color: gray;
+    font-size: 13px;
+    margin-left: 1px;
+    margin-top: 2px;
+}

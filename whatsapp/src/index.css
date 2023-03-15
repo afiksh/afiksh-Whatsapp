@@ -1,0 +1,46 @@
+:root {
+  --sidebar-header-img-width: 42px;
+  --info-font-size: 10px;
+  --chat-input-send-btn-height-width: 35px;
+  --color-fff-white: #fff;
+  --color-ededed-white: #ededed;
+  --color-dcf8c6-white: #dcf8c6;
+  --color-4ec0a5-green-blue: #4ec0a5;
+  --chat-message-padding: 10px;
+  --border-radius-15px: 15px;
+  --border-radius-100p: 100%;
+  --font-family: font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+aside.EmojiPickerReact.epr-main {
+  left: 0;
+  position: absolute !important;
+  top: -250px;
+}
+
+.EmojiPickerReact .Flex {
+  display: none;
+}
+
+svg:hover,
+svg:focus {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+[role=button] {
+  cursor: pointer;
+}
+
+img {
+  cursor: pointer;
+  width: 100%;
+}

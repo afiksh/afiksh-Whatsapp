@@ -1,0 +1,123 @@
+.chat-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-width: 348px;
+    z-index: -2;
+}
+
+.chat-container-header {
+    align-items: center;
+    background-color: var(--color-ededed-white);
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding: 5px 0 5px 10px;
+}
+
+.chat-user-info {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+}
+
+.chat-user-img {
+    margin-left: 10px;
+    margin-right: 15px;
+    width: 44px;
+}
+
+.chat-user-img>img {
+    border-radius: var(--border-radius-100p);
+    z-index: 200;
+}
+
+.chat-user-info-name {
+    flex-direction: column;
+}
+
+#info {
+    color: gray;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: var(--info-font-size);
+    padding: 3px;
+}
+
+#info:hover {
+    font-size: calc(var(--info-font-size) + 3px);
+}
+
+.chat-container-header-btn {
+    margin-right: 10px;
+}
+
+.chat-display-container {
+    background-color: #ece5dd;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: hidden auto;
+}
+
+.chat-input {
+    align-items: center;
+    background-color: #f0f0f0;
+    display: flex;
+    padding: 12px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.chat-input-btn {
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.chat-input-btn>.MuiSvgIcon-root {
+    color: gray;
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+.chat-input>form {
+    flex: 1;
+}
+
+.chat-input>form>input {
+    border: none;
+    border-radius: var(--border-radius-15px);
+    height: 35px;
+    margin-right: 10px;
+    outline: none;
+    padding-left: 10px;
+    width: 90%;
+}
+
+.chat-input-send-btn {
+    align-items: center;
+    background-color: #128c7e;
+    border-radius: var(--border-radius-100p);
+    color: white;
+    display: flex;
+    height: var(--chat-input-send-btn-height-width);
+    justify-content: center;
+    width: var(--chat-input-send-btn-height-width);
+}
+
+.chat-input-send-btn:hover {
+    background-color: #126c9c;
+    height: calc(var(--chat-input-send-btn-height-width) - 1px);
+    width: calc(var(--chat-input-send-btn-height-width) - 1px);
+}
+
+.chat-input-send-btn:active {
+    background-color: #12618c;
+    height: calc(var(--chat-input-send-btn-height-width) - 3px);
+    width: calc(var(--chat-input-send-btn-height-width) - 3px);
+}
+
+.chat-input-send-btn>.MuiSvgIcon-root {
+    font-size: 22px;
+}
